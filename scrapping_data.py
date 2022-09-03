@@ -216,10 +216,10 @@ def get_by(a="province"):
 
 database = Database('data.db')
 
+
 #
 # database.reset_database()
 #
-
 
 # Insert to Database
 for _listdata in get_by('city'):
