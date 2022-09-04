@@ -33,3 +33,10 @@ print("==" * 20 + " Search by desa " + "==" * 20)
 print(
     database.search_multi('Pilangsari')
 )
+
+print("==" * 20 + " Clean Data " + "==" * 20)
+
+from GetAddressIndonesia import get_by
+
+for i in get_by('city'):
+    print(i)
